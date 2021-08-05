@@ -1,0 +1,90 @@
+{
+    "materials": [
+        {
+            "id": 0,
+            "name": "Metal",
+            "strengthIndex": 0.9,
+            "tightnessIndex": 0.95,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 1,
+            "name": "Foam",
+            "strengthIndex": 0.05,
+            "tightnessIndex": 0.1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "id": 2,
+            "name": "Polymer",
+            "strengthIndex": 0.5,
+            "tightnessIndex": 0.9,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ],
+    "rockTypes": [
+        {
+            "id": 0,
+            "name": "Sedimentary",
+            "strengthIndex": 0.5,
+            "tightnessIndex": 0.5,
+            "description": "Sedimentary rock type"
+        },
+        {
+            "id": 1,
+            "name": "Igneous",
+            "strengthIndex": 0.6,
+            "tightnessIndex": 0.65,
+            "description": "Igneous rock type"
+        },
+        {
+            "id": 2,
+            "name": "Metamorphic",
+            "strengthIndex": 0.7,
+            "tightnessIndex": 0.8,
+            "description": "Methamorphic rock type"
+        },
+        {
+            "id": 479357502985,
+            "name": "NewUpdated",
+            "strengthIndex": 0.5,
+            "tightnessIndex": 0.5,
+            "description": "new rock type"
+        }
+    ],
+    "rocks": [
+        {
+            "id": 0,
+            "rockType": 2,
+            "material": 1,
+            "dimensions": { "length" : 10, "weight" : 15, "width" : 10},
+            "state": 0,
+            "color": "black",
+            "weight": 10,
+            "description": "Sample rock",
+            "price": 10
+        },
+        {
+            "id": 1,
+            "rockType": 2,
+            "material": 0,
+            "dimensions": { "length" : 10, "weight" : 17, "width" : 10},
+            "state": 0,
+            "color": "green",
+            "weight": 10,
+            "description": "Sample rock 2",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "rockType": 1,
+            "material": 0,
+            "dimensions": { "length" : 7, "weight" : 17, "width" : 10},
+            "state": 0,
+            "color": "red",
+            "weight": 17,
+            "description": "Sample rock 3",
+            "price": 18
+        }
+    ]
+}
